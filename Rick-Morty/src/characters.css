@@ -1,0 +1,11 @@
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 30px;
+}
+.acomodar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+}
