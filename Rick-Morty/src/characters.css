@@ -1,13 +1,24 @@
 .conteiner {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-area: 300px 400px;
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   gap: 30px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-inline-start: 0;
 }
 .data {
   background-color: #5f5e5e;
   width: 100%;
+  height: 175px;
+  padding-left: 1em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+img {
+  height: 175px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .acomodar {
   display: flex;
@@ -26,6 +37,8 @@ a {
   color: white;
   font-weight: 500;
   text-decoration: none;
+  font-size: 12px;
+  padding-top: -50px;
 }
 a:hover {
   color: orangered;
@@ -38,17 +51,39 @@ body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
-img {
-  height: 280px;
-}
+
 #status {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 10px;
 }
 h1 {
+  color: black;
   text-align: center;
+  padding-top: 70px;
+  font-size: 40px;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
+}
+header {
+  background-image: url("archivo.svg");
+  background-size: 189px 187px;
+  height: 189px;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center center;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.chiquitito {
+  font-size: 10px;
+  padding-bottom: -50px;
+  line-height: 1;
 }
