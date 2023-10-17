@@ -16,7 +16,9 @@ export function Characters() {
       <ul>
         <div className="conteiner">
           {personajes.map((item, index) => (
-            <Character character={item} key={index} />
+            <div key={index}>
+              <Character character={item} />
+            </div>
           ))}
         </div>
       </ul>

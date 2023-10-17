@@ -40,9 +40,25 @@ a {
   font-size: 12px;
   padding-top: -50px;
 }
+
 a:hover {
   color: orangered;
 }
+button {
+  color: white;
+  font-weight: 450;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: -50px;
+  border-style: none;
+  background-color: #5f5e5e;
+  padding: 1px 0px;
+}
+
+button:hover {
+  color: orangered;
+}
+
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -62,6 +78,7 @@ h1 {
   text-align: center;
   padding-top: 70px;
   font-size: 40px;
+  margin: 0px;
 }
 
 ul {
