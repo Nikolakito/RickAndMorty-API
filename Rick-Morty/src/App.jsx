@@ -1,7 +1,11 @@
 import { Characters } from "./components/characters";
 
 function App() {
-  return <Characters />;
+  return (
+    <>
+      <Characters />
+    </>
+  );
 }
 
 export default App;

@@ -6,7 +6,7 @@ export function useEpisode() {
   const getAllEpisodes = (array) => {
     return fetch(`https://rickandmortyapi.com/api/episode/${array}`)
       .then((res) => res.json())
-      .then((data) => setEpisodes(data.results));
+      .then((data) => setEpisodes(data));
   };
   return {
     episodes,
